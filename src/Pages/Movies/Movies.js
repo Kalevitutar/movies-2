@@ -3,15 +3,6 @@ import { Helmet } from 'react-helmet';
 import Header from "../../Components/Header/Header.js";
 import Footer from "../../Components/Footer/Footer.js";
 import Card from "../../Components/Card.js";
-// import {data} from "../../Data/starterData.js";
-
-// import freeWilly from "../../Assets/free-willy.png";
-// import frozen from "../../Assets/frozen.png";
-// import moonlight from "../../Assets/moonlight.png";
-// import pulpFiction from "../../Assets/pulp-fiction.png";
-// import theNegotiator from "../../Assets/the-negotiator.png";
-// import titanic from "../../Assets/titanic.png";
-// import up from "../../Assets/up.png";
 
 import "./Movies.css";
 

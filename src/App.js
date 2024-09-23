@@ -11,7 +11,7 @@ function App() {
   const [movies, setMovies]= useState([]);
 
   const getMovieObj = async (title) => {
-    const url = `http://www.omdbapi.com/?i=tt3896198&t=${title}&apikey=96ae0748`;
+    const url = `https://www.omdbapi.com/?i=tt3896198&t=${title}&apikey=96ae0748`;
     const response = await fetch(url);
     const data = await response.json();
     console.log("this is what is coming back as JSON: ", data);
